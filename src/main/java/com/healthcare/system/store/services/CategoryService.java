@@ -33,6 +33,7 @@ public class CategoryService {
                                               .orElseThrow(() -> new RuntimeException("Category not found: " + id));
 
         existing.setName(incoming.getName());
+        existing.setDescription(incoming.getDescription());
         // ... any other updatable fields
 
         return categoryRepository.save(existing);
