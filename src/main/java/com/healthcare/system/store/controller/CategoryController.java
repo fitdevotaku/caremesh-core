@@ -15,7 +15,7 @@ public class CategoryController {
     public CategoryController(CategoryService categoryService) {
         this.categoryService = categoryService;
     }
-    // read all medicines
+    // read all categories/medicines
     @GetMapping
     public List<Category> getAll() {
         return categoryService.getAllCategories();
@@ -25,13 +25,13 @@ public class CategoryController {
     public Category getItem(@PathVariable Long id) {
         return categoryService.getCategory(id);
     }
-    // create a new medicine
+    // create a new category/medicine
     @PostMapping
     public Category create(@RequestBody Category category) {
         return categoryService.createCategory(category);
     }
 
-    // update medicine
+    // update categories
     @PutMapping("/{id}")
     public ResponseEntity<Category> updateCategory(
             @PathVariable Long id,
