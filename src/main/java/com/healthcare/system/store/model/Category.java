@@ -1,4 +1,4 @@
-package com.healthcare.system.store.services;
+package com.healthcare.system.store.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
