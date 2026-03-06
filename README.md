@@ -1,22 +1,22 @@
-# CareMesh Core
+# Caremesh Core
 
-CareMesh Core is a backend platform designed to address real world medication access failures across pharmacies, manufacturers, and patients.
+Caremesh Core is a backend platform designed to address real world medication access failures across pharmacies, manufacturers, and patients.
 
-Medication discontinuations, supply gaps, and regional stocking issues routinely interrupt patient care. CareMesh focuses on the system level problem behind those disruptions, not on recreating another consumer facing pharmacy app.
+Medication discontinuations, supply gaps, and regional stocking issues routinely interrupt patient care. Caremesh focuses on the system level problem behind those disruptions, not on recreating another consumer facing pharmacy app.
 
 The goal is simple. Instead of patients searching endlessly for medications, the system searches for viable fulfillment paths on their behalf.
 
 ## Problem Space
 
-CareMesh operates at the intersection of manufacturers, suppliers, pharmacies, and patients.
+Caremesh operates at the intersection of manufacturers, suppliers, pharmacies, and patients.
 
 Patients may rely on medications that are discontinued locally but still available upstream. Pharmacies often lack visibility into alternative suppliers or equivalent products. Manufacturers have limited insight into downstream access issues.
 
-CareMesh is designed to act as connective infrastructure across this gap by modeling supply relationships and routing requests intelligently.
+Caremesh is designed to act as connective infrastructure across this gap by modeling supply relationships and routing requests intelligently.
 
 ## What This Repository Is
 
-This repository, caremesh-core, contains the backend service layer for the CareMesh platform.
+This repository, caremesh-core, contains the backend service layer for the Caremesh platform.
 
 It focuses on building a clean, extensible foundation rather than premature feature complexity. The system is intentionally designed as a modular monolith, with clear domain boundaries that support future growth.
 
@@ -31,7 +31,7 @@ Order matching logic that identifies realistic fulfillment paths or safe alterna
 
 ### Architecture Overview
 
-CareMesh Core is built as a Spring Boot application with a domain driven structure.
+Caremesh Core is built as a Spring Boot application with a domain driven structure.
 
 Core architectural goals include:
 
