@@ -44,7 +44,7 @@ The technology stack includes Java 17, Spring Boot, Spring Data JPA, MySQL, and 
 
 ### Development Status
 
-This project is in early active development.
+This project is in early active development..
 
 Current priorities include domain modeling, API design, and establishing stable persistence patterns. The focus is on correctness, clarity, and long term maintainability rather than surface level polish.
 
